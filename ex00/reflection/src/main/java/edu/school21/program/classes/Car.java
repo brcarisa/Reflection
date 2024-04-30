@@ -19,7 +19,7 @@ public class Car {
         this.weight = height;
     }
 
-    public int getWeight(int value) {
+    public int grow(int value) {
         this.weight += value;
         return weight;
     }
